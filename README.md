@@ -72,17 +72,16 @@ the components that make it up.
   an empty panel.
 
 **Style**
-- Create your CSS
-  - [ ] Since the goal of this project is to create a clone of the Initab
-        page you will want to make sure that your app mimics the layout, 
-        fonts, color scheme, and visual elements in the original Initb 
-        app. Because it is a clone you may not change the style, even 
-        though it may run counter to your personal preferences.
-  - [ ] What will you use for your layout: floats, flexbox or grid?
-  - [ ] Once you decide, start by creating the structure of the webpage and 
-        then add the styles (e.g. colors, fonts).
-  - [ ] You should use native CSS or CSS preprocessors like SASS or Stylus. 
-        You may not use a CSS library like Bootstrap. 
+- [ ] Since the goal of this project is to create a clone of the Initab
+      page you will want to make sure that your app mimics the layout, 
+      fonts, color scheme, and visual elements in the original Initb 
+      app. Because it is a clone you may not change the style, even 
+      though it may run counter to your personal preferences.
+- [ ] What will you use for your layout: floats, flexbox or grid?
+- [ ] Once you decide, start by creating the structure of the webpage and 
+      then add the styles (e.g. colors, fonts).
+- [ ] You should use native CSS or CSS preprocessors like SASS or Stylus. 
+      You may not use a CSS library like Bootstrap. 
 
 **Functionality**
 - [ ] You are *_NOT_* required to implement API's to obtain live data from 
