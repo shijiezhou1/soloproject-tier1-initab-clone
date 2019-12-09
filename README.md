@@ -39,12 +39,10 @@ compare the way the template looks face to face to the clone.
 the components that make it up.
 - [ ] Create your own solution without looking at the Initab page source.
 - Create your HTML with a container for each section. for instance:
-
-      - [ ] Navigation bar
-      - [ ] Header
-      - [ ] Content sections
-      - [ ] Footer
-      
+    - [ ] Navigation bar
+    - [ ] Header
+    - [ ] Content sections
+    - [ ] Footer
 - [ ] Write the HTML for the rest of the page and the contents of each section.
 - [ ] Create your JavaScript
 
