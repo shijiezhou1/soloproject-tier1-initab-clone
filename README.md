@@ -38,13 +38,38 @@ compare the way the template looks face to face to the clone.
 - [ ] Explore the [Initab page](https://initab.com/) and identify
 the components that make it up.
 - [ ] Create your own solution without looking at the Initab page source.
-- Create your HTML with a container for each section. for instance:
-    - [ ] Navigation bar
-    - [ ] Header
-    - [ ] Content sections
-    - [ ] Footer
-- [ ] Write the HTML for the rest of the page and the contents of each section.
-- [ ] Create your JavaScript
+- Navigation bar
+  - [ ] Navigation items do NOT need to be clickable, but they must match 
+  Initab styling, including font and font color.
+  - [ ] The `INITAB` icon at the bottom of the bar should display the Initab 
+  site page in a new tab or window when clicked
+  - [ ] You include at least two social media icons (one of which must be to 
+  your GitHub profile) at the bottom of the nav bar.
+  - [ ] Social media icons should be clickable and must match that sites 
+  current icon.
+- [ ] Reddit New Feed
+  - [ ] Assume that news items included in this component will be from 
+  Reddit's `R/Javascript` new group
+  - [ ] News items should be mocked as a JSON array within your app. You do NOT 
+  need to implement a live feed from Reddit.
+  - [ ] This component should be scrollable and contain more items than can 
+  be displayed for testing purposes.
+- Javascript History
+  - [ ] This component includes site history from the browser. These should 
+  be mocked as a JSON array within your app. You do NOT need to retrieve the 
+  real history from your browser.
+  - [ ] This component should be scrollable and contain more items than can 
+  be displayed for testing purposes.
+- GitHub Issues History
+  - [ ] This component contains issues from your GitHub repos and repos you 
+  follow. These should be mocked as a JSON array within your app. You do NOT 
+  need to retrieve the actual history from the GitHub API.
+  - [ ] This component should be scrollable and contain more items than can 
+  be displayed for testing purposes.
+- Advertisement Feed
+  - [ ] You do NOT need to include an advertisement feed or mockup.
+  - [ ] Leave space reserved on the page for this component and display as 
+  an empty panel.
 
 **Style**
 - Create your CSS
@@ -87,6 +112,8 @@ submitting
 - [ ] Buttons at the bottom of Navigation bar on the left side of the page 
 should open a new tab/window in the browser to your profile page or feed for 
 that site if you already have an account.
+- [ ] Display actual web pages containing the word 'Javascript' from the users 
+browser history.
 - [ ] Make your design fully responsive (see 
 [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive))
 - [ ] Anticipate and handle any edge cases
