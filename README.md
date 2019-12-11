@@ -86,7 +86,7 @@ the components that make it up.
 **Functionality**
 - [ ] You are *_NOT_* required to implement API's to obtain live data from 
 Reddit, GitHub, or browser history.
-- [ ] You do *_NOT_* implementing a Chrome Extension. Simply a web page that 
+- [ ] You are *_NOT_* implementing a Chrome Extension. Simply a web page that 
 mimics
 the initial Initab display. 
 - [ ] Use mocked text to fill in each of the components on the page, such as 
