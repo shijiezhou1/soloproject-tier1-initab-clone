@@ -10,7 +10,7 @@ create a web page that matches the format of this extensions display.
 Initab has a complex layout and completing this project will let you refine
 your skills implementing complex, information rich web pages.
 
-You do *_NOT_* implementing a Chrome Extension. Simply a web page that mimics
+You are *_NOT_* implementing a Chrome Extension. Simply a web page that mimics
 the initial Initab display.  
 
 ## Instructions
