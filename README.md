@@ -1,4 +1,4 @@
-# Chingu Voyage Solo Project (Tier 1): Initab Clone
+# Chingu Solo Project - Tier 1 - Initab Clone
 
 ![Initab Screenshot](./assets/initab-screenshot.png)
 
