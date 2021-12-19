@@ -48,9 +48,9 @@ compare the way the template looks face to face to the clone.
 ### Requirements
 
 **Structure**
-- [ ] Explore the [Initab page](https://initab.com/) and identify
+- [x] Explore the [Initab page](https://initab.com/) and identify
 the components that make it up.
-- [ ] Create your own solution without looking at the Initab page source.
+- [x] Create your own solution without looking at the Initab page source.
 - Navigation bar
   - [ ] Navigation items do NOT need to be clickable, but they must match 
   Initab styling, including font and font color.
