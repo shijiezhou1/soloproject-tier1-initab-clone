@@ -1,0 +1,47 @@
+.color-7 {
+  color: #d7005f;
+}
+.color-8 {
+  color: #d75f00;
+}
+.color-9 {
+  color: #718c00;
+}
+.color-10 {
+  color: #3e999f;
+}
+.color-11 {
+  color: #005f87;
+}
+.color-12 {
+  color: #df0000;
+}
+.color-13 {
+  color: #d75f00;
+}
+.color-14 {
+  color: #8959a8;
+}
+.color-15 {
+  color: #fff;
+}
+.color-16 {
+  color: #4d4d4c;
+}
+.color-17 {
+  color: #262626;
+}
+.color-18 {
+  color: #4d4d4c;
+}
+
+@mixin sameHeightWidth($size) {
+    width: $size;
+    height: $size;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

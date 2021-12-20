@@ -3,6 +3,12 @@
         <div class="nav">
             <!-- <component :is="NavigationContainer" /> -->
             <NavigationContainer />
+
+            <SocialMediaList />
+
+            <a href="https://initab.com" target="_blank" class="logo">
+                <img :src="require('@/assets/initab-icon.svg')" alt="Initab" />
+            </a>
         </div>
 
         <div class="main">main</div>
@@ -11,26 +17,25 @@
 
 <script>
 // @ is an alias to /src
-import { defineComponent, defineAsyncComponent } from 'vue';
+import { defineComponent, defineAsyncComponent } from "vue";
 
 export default defineComponent({
     name: "Home",
-    // components: {
-    //     NavigationContainer: defineAsyncComponent(() => import('@/components/NavigationContainer.vue'))
-    // },
+    components: {
+        NavigationContainer: defineAsyncComponent(() =>
+            import("@/components/NavigationContainer.vue")
+        ),
+        SocialMediaList: defineAsyncComponent(() =>
+            import("@/components/SocialMediaList.vue")
+        ),
+    },
     setup() {
-
-        const NavigationContainer =  defineAsyncComponent(() => import('@/components/NavigationContainer.vue'))
-
-        return {
-            NavigationContainer
-        }
-    }
+        return {};
+    },
 });
 </script>
 
 <style lang="scss" scoped>
-
 .home {
     display: flex;
     align-items: stretch;
@@ -39,14 +44,32 @@ export default defineComponent({
     height: 100vh;
 
     .nav {
-        flex: 1;
-        border: 1px solid red;
+        flex: 2;
         background-color: #d0d0d0;
+        position: relative;
+
+        .logo {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            @include flexCenter;
+
+            img {
+                width: 100px;
+                opacity: 0.5;
+            }
+
+            &:hover {
+                img {
+                    opacity: 1;
+                }
+            }
+        }
     }
 
     .main {
-        flex: 11;
-
+        flex: 14;
     }
 }
 </style>

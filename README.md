@@ -52,13 +52,13 @@ compare the way the template looks face to face to the clone.
 the components that make it up.
 - [x] Create your own solution without looking at the Initab page source.
 - Navigation bar
-  - [ ] Navigation items do NOT need to be clickable, but they must match 
+  - [x] Navigation items do NOT need to be clickable, but they must match 
   Initab styling, including font and font color.
-  - [ ] The `INITAB` icon at the bottom of the bar should display the Initab 
+  - [x] The `INITAB` icon at the bottom of the bar should display the Initab 
   site page in a new tab or window when clicked
-  - [ ] You include at least two social media icons (one of which must be to 
+  - [x] You include at least two social media icons (one of which must be to 
   your GitHub profile) at the bottom of the nav bar.
-  - [ ] Social media icons should be clickable and must match that sites 
+  - [x] Social media icons should be clickable and must match that sites 
   current icon.
 - [ ] Reddit New Feed
   - [ ] Assume that news items included in this component will be from 
