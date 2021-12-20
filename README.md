@@ -60,7 +60,7 @@ the components that make it up.
   your GitHub profile) at the bottom of the nav bar.
   - [x] Social media icons should be clickable and must match that sites 
   current icon.
-- [ ] Reddit New Feed
+- [x] Reddit New Feed
   - [ ] Assume that news items included in this component will be from 
   Reddit's `R/Javascript` new group
   - [ ] News items should be mocked as a JSON array within your app. You do NOT 

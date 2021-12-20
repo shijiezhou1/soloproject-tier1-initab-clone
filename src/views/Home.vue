@@ -11,7 +11,11 @@
             </a>
         </div>
 
-        <div class="main">main</div>
+        <div class="main">
+            <Reddit />
+            <JavaScript />
+            <Github />
+        </div>
     </div>
 </template>
 
@@ -28,6 +32,11 @@ export default defineComponent({
         SocialMediaList: defineAsyncComponent(() =>
             import("@/components/SocialMediaList.vue")
         ),
+        Reddit: defineAsyncComponent(() => import("@/components/Reddit.vue")),
+        JavaScript: defineAsyncComponent(() =>
+            import("@/components/JavaScript.vue")
+        ),
+        Github: defineAsyncComponent(() => import("@/components/Github.vue")),
     },
     setup() {
         return {};
@@ -70,6 +79,18 @@ export default defineComponent({
 
     .main {
         flex: 14;
+        overflow: scroll;
+
+        div:nth-child(1) {
+            width: 25%;
+            border: 1px solid red;
+        }
+        div:nth-child(2) {
+            width: 50%;
+        }
+        div:nth-child(3) {
+            width: 25%;
+        }
     }
 }
 </style>
