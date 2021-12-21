@@ -9,32 +9,30 @@
         </div>
 
         <div class="wrapper">
-            <div v-for="ls in global.state.reddit.children" :key="ls.data.url" class="children">
-            <a :href="ls.data.url" class="children-item">
-                <div>{{ ls.data.title }}</div>
-                <div>Posted by: <span>{{ ls.data.author }}</span></div>
-                <div>Reddit Score: {{ ls.data.score }}</div>
-                <a :href="ls.data.url">Link to Comments</a>
-            </a>
+            <div v-for="ls in redditList" :key="ls.data.url" class="children">
+                <a :href="ls.data.url" class="children-item">
+                    <div>{{ ls.data.title }}</div>
+                    <div>
+                        Posted by: <span>{{ ls.data.author }}</span>
+                    </div>
+                    <div>Reddit Score: {{ ls.data.score }}</div>
+                    <a :href="ls.data.url">Link to Comments</a>
+                </a>
+            </div>
         </div>
-        </div>
-    
     </div>
 </template>
 
 <script>
-import { defineComponent, onMounted, inject } from "vue";
+import { computed, defineComponent } from "vue";
 
 export default defineComponent({
-    setup() {
-        const global = inject("global");
-
-        onMounted(() => {
-            global.setReddit();
-        });
-
+    props: {
+        reddit: {},
+    },
+    setup(props) {
         return {
-            global,
+            redditList: computed(() => props.reddit.state.reddit.children),
         };
     },
 });
@@ -47,8 +45,6 @@ export default defineComponent({
         text-decoration: none;
         color: #000;
     }
-
-
 }
 
 .topics {

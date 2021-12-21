@@ -61,11 +61,11 @@ the components that make it up.
   - [x] Social media icons should be clickable and must match that sites 
   current icon.
 - [x] Reddit New Feed
-  - [ ] Assume that news items included in this component will be from 
+  - [x] Assume that news items included in this component will be from 
   Reddit's `R/Javascript` new group
-  - [ ] News items should be mocked as a JSON array within your app. You do NOT 
+  - [x] News items should be mocked as a JSON array within your app. You do NOT 
   need to implement a live feed from Reddit.
-  - [ ] This component should be scrollable and contain more items than can 
+  - [x] This component should be scrollable and contain more items than can 
   be displayed for testing purposes.
 - Javascript History
   - [ ] This component includes site history from the browser. These should 
@@ -74,7 +74,7 @@ the components that make it up.
   - [ ] This component should be scrollable and contain more items than can 
   be displayed for testing purposes.
 - GitHub Issues History
-  - [ ] This component contains issues from your GitHub repos and repos you 
+  - [x] This component contains issues from your GitHub repos and repos you 
   follow. These should be mocked as a JSON array within your app. You do NOT 
   need to retrieve the actual history from the GitHub API.
   - [ ] This component should be scrollable and contain more items than can 

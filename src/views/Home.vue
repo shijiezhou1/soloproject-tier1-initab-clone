@@ -12,16 +12,16 @@
         </div>
 
         <div class="main">
-            <Reddit />
+            <Reddit :reddit="global" />
             <JavaScript />
-            <Github />
+            <Github :github="global" />
         </div>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import { defineComponent, defineAsyncComponent } from "vue";
+import { defineComponent, defineAsyncComponent, onMounted, inject } from "vue";
 
 export default defineComponent({
     name: "Home",
@@ -39,7 +39,16 @@ export default defineComponent({
         Github: defineAsyncComponent(() => import("@/components/Github.vue")),
     },
     setup() {
-        return {};
+        const global = inject("global");
+
+        onMounted(() => {
+            global.setReddit();
+            global.setGithub();
+        });
+
+        return {
+            global,
+        };
     },
 });
 </script>
@@ -78,6 +87,8 @@ export default defineComponent({
     }
 
     .main {
+        display: flex;
+        flex-direction: row;
         flex: 14;
         overflow: scroll;
 
