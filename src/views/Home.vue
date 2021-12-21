@@ -13,7 +13,7 @@
 
         <div class="main">
             <Reddit :reddit="global" />
-            <JavaScript />
+            <JavaScript :javascript="global" />
             <Github :github="global" />
         </div>
     </div>
@@ -44,6 +44,7 @@ export default defineComponent({
         onMounted(() => {
             global.setReddit();
             global.setGithub();
+            global.setJavascript();
         });
 
         return {
@@ -90,17 +91,17 @@ export default defineComponent({
         display: flex;
         flex-direction: row;
         flex: 14;
-        overflow: scroll;
 
         div:nth-child(1) {
             width: 25%;
-            border: 1px solid red;
+            overflow: scroll;
         }
         div:nth-child(2) {
             width: 50%;
         }
         div:nth-child(3) {
             width: 25%;
+            overflow: scroll;
         }
     }
 }

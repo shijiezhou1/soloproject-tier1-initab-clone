@@ -16,7 +16,7 @@ export default {
 @import "~@/styles/reset.scss";
 
 #app {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Inconsolata',monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
