@@ -98,6 +98,8 @@ export default defineComponent({
         }
         div:nth-child(2) {
             width: 50%;
+            display: flex;
+            flex-direction: column;
         }
         div:nth-child(3) {
             width: 25%;

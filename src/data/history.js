@@ -55,25 +55,73 @@ const data = [
     },
     {
         id: 10,
-        img: "1https://picsum.photos/10/10?random=0",
+        img: "https://picsum.photos/10/10?random=10",
         title: "JavaScript Clean Code - Best Practices",
         timeAgo: " 3 day"
     },
     {
         id: 11,
-        img: "1https://picsum.photos/10/10?random=1",
+        img: "https://picsum.photos/10/10?random=11",
         title: "JavaScript Clean Code - Best Practices",
         timeAgo: " 3 day"
     },
     {
         id: 12,
-        img: "1https://picsum.photos/10/10?random=2",
+        img: "https://picsum.photos/10/10?random=12",
         title: "JavaScript Clean Code - Best Practices",
         timeAgo: " 3 day"
     },
     {
         id: 13,
-        img: "1https://picsum.photos/10/10?random=3",
+        img: "https://picsum.photos/10/10?random=13",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 10,
+        img: "https://picsum.photos/10/10?random=10",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 11,
+        img: "https://picsum.photos/10/10?random=11",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 12,
+        img: "https://picsum.photos/10/10?random=12",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 13,
+        img: "https://picsum.photos/10/10?random=13",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 10,
+        img: "https://picsum.photos/10/10?random=10",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 11,
+        img: "https://picsum.photos/10/10?random=11",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 12,
+        img: "https://picsum.photos/10/10?random=12",
+        title: "JavaScript Clean Code - Best Practices",
+        timeAgo: " 3 day"
+    },
+    {
+        id: 13,
+        img: "https://picsum.photos/10/10?random=13",
         title: "JavaScript Clean Code - Best Practices",
         timeAgo: " 3 day"
     }

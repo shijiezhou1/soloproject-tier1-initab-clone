@@ -8,7 +8,7 @@
             <span>POPULAR ON R/JAVASCRIPT</span>
         </div>
 
-        <div class="wrapper">
+        <div class="wrapper" v-if="!!(redditList && redditList.length > 0)">
             <div v-for="ls in redditList" :key="ls.data.url" class="children">
                 <a :href="ls.data.url" class="children-item">
                     <div>{{ ls.data.title }}</div>
@@ -20,6 +20,8 @@
                 </a>
             </div>
         </div>
+
+        <div class="lds-dual-ring" v-else></div>
     </div>
 </template>
 
@@ -39,5 +41,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+.reddit {
+    position: relative;
+}
 @include sections;
 </style>
