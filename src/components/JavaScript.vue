@@ -62,6 +62,7 @@ export default defineComponent({
 
 ::v-deep(.row) {
     display: flex;
+    cursor: pointer;
 
     .color-19 {
         display: flex;
@@ -77,6 +78,10 @@ export default defineComponent({
             text-overflow: ellipsis;
             font-size: 14px;
             font-weight: 100;
+
+            &:hover {
+                color: #d75f00;
+            }
         }
 
         .date {

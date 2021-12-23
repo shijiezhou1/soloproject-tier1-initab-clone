@@ -55,19 +55,19 @@ export default {
 
         .name {
             text-transform: uppercase;
-            font-size: 13px;
+            font-size: 12px;
             text-transform: uppercase;
             font-family: "Inconsolata", monospace;
-            margin-left: 5px;
+            margin-left: 6px;
+            cursor: pointer;
         }
 
         .icon {
             @include sameHeightWidth(20px);
             @include flexCenter;
-            color: #fff;
-            svg {
-                margin-top: 2px;
-            }
+            color: #d0d0d0;
+            font-size: 12px;
+            line-height: 20px;
         }
     }
 }

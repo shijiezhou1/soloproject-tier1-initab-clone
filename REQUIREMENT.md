@@ -121,14 +121,14 @@ submitting
       Netlify or Heroku. It's up to you! 
 
 **Extras (Not Required)**
-- [ ] Buttons at the bottom of Navigation bar on the left side of the page 
+- [x] Buttons at the bottom of Navigation bar on the left side of the page 
 should open a new tab/window in the browser to your profile page or feed for 
 that site if you already have an account.
 - [ ] Display actual web pages containing the word 'Javascript' from the users 
 browser history.
 - [ ] Make your design fully responsive (see 
 [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive))
-- [x] Anticipate and handle any edge cases
+- [ ] Anticipate and handle any edge cases
 - [ ] Use Accessibility techniques (see 
 [The A11Y Project](https://a11yproject.com/)) to improve your site for users 
 with impairments 

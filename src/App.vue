@@ -4,11 +4,17 @@
 
 <script>
 import global from "@/global.js";
+import { onMounted } from "vue";
 
 export default {
     provide: {
         global,
     },
+    setup() {
+        onMounted(() => {
+            document.title = 'Initab Clone App | Shijie Zhou';
+        })
+    }
 };
 </script>
 

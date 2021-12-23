@@ -6,7 +6,7 @@
 
             <SocialMediaList />
 
-            <a href="https://initab.com" target="_blank" class="logo">
+            <a :href="profileUrl" target="_blank" class="logo">
                 <img :src="require('@/assets/initab-icon.svg')" alt="Initab" />
             </a>
         </div>
@@ -49,6 +49,7 @@ export default defineComponent({
 
         return {
             global,
+            profileUrl: 'https://github.com/shijiezhou1',
         };
     },
 });

@@ -64,11 +64,20 @@
 @mixin sections {
     .children {
         &-item {
+            font-family: 'Inconsolata', monospace;
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 4 px;
+            font-weight: 100;
             text-decoration: none;
             color: #000;
 
             div {
                 margin-bottom: 10px;
+            }
+
+            .like {
+                color: #718c00;
             }
         }
 

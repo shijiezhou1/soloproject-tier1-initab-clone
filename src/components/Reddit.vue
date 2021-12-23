@@ -16,7 +16,7 @@
                         <span class="color-10">Posted by: </span><span class="color-13">{{ ls.data.author }}</span>
                     </div>
                     <div class="color-19">Reddit Score: {{ ls.data.score }}</div>
-                    <a :href="ls.data.url">Link to Comments</a>
+                    <a class="like" :href="ls.data.url">Link to Comments</a>
                 </a>
             </div>
         </div>
